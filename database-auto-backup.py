@@ -15,16 +15,16 @@ from pathlib import Path
 config: Dict[str, any] = {
     'databases': [
         {
-            'name': 'bsafeg_bsafegroup.be',
-            'user': 'bsafeg_bsafegroup_be',
-            'pass': 'Cm%ld].7WKS.?oQA',
+            'name': 'xxxx',
+            'user': 'xxxx',
+            'pass': 'xxxx',
             'host': '127.0.0.1',
             'port': 3306
         },
         {
-            'name': 'bsafeg_mazijna.com',
-            'user': 'bsafeg_mazijna_com',
-            'pass': '~3#9{GuVG]WpJv(A',
+            'name': 'xxxx',
+            'user': 'xxxx',
+            'pass': 'xxxx',
             'host': '127.0.0.1',
             'port': 3306
         },
@@ -35,8 +35,8 @@ config: Dict[str, any] = {
     'compression': 'gz',  # gz, bz2, zip
     'disable_telegram': False,
     'telegram': {
-        'bot_token': '8373765950:AAE3QWYPY1m6ahSJ09UsaeFNzgxyXTp38rc',
-        'chat_id': '-1003853984009',
+        'bot_token': 'xxxx',
+        'chat_id': 'xxxx',
         'caption': 'Auto DB Backup',
     },
     'retention_days': 10,
